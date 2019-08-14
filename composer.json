@@ -1,0 +1,24 @@
+{
+    "name": "alvsystems/sagepay-php-sdk",
+    "description": "Sage Pay PHP SDK for server and direct integrations.",
+    "keywords": [
+        "sagepay",
+        "gateway",
+        "sdk",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Alvin Chevolleaux",
+            "email": "alvin@alvinchevolleaux.com"
+        }
+    ],
+    "autoload": {
+		"files": ["lib/sagepay.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
